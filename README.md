@@ -4,7 +4,7 @@ Welcome to my personal portfolio website! This portfolio showcases my projects, 
 
 ## 🔗 Live Website
 
-👉 https://YOUR_USERNAME.github.io/portfolio/
+👉 https://Nishmitha07.github.io/portfolio/
 
 *(Update this link after deploying with GitHub Pages.)*
 
