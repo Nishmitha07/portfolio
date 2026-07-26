@@ -4,9 +4,9 @@ Welcome to my personal portfolio website! This portfolio showcases my projects, 
 
 ## 🔗 Live Website
 
-👉 https://Nishmitha07.github.io/portfolio/
+👉 https://Nishmitha07.github.io/[portfolio](http://127.0.0.1:5500/#home)/
 
-*(Update this link after deploying with GitHub Pages.)*
+
 
 ---
 
