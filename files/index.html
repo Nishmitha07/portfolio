@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nishmitha — ECE Student &amp; Builder</title>
+<meta name="description" content="Nishmitha — Electronics &amp; Communication Engineering student building at the edge of embedded systems, web development, and machine learning.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="locked">
+
+<!-- ============ LOADER ============ -->
+<div id="loader">
+  <div class="boot-log"><ul id="bootList"></ul></div>
+  <div class="boot-bar">
+    <span id="bootPct">INITIALIZING… 0%</span>
+    <div class="track"><div class="fill" id="bootFill"></div></div>
+  </div>
+</div>
+
+<div class="grid-bg"></div>
+<div class="glow glow1"></div>
+<div class="glow glow2"></div>
+<div class="trace-rail"></div>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="siteNav">
+  <a href="#home" class="brand">nishmitha<span>.dev</span></a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#home">home</a></li>
+    <li><a href="#about">about</a></li>
+    <li><a href="#skills">skills</a></li>
+    <li><a href="#projects">projects</a></li>
+    <li><a href="#achievements">achievements</a></li>
+    <li><a href="#contact">contact</a></li>
+  </ul>
+  <button class="menu-btn" id="menuBtn" aria-label="Toggle menu"><i class="fa-solid fa-bars"></i></button>
+</header>
+
+<main>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home">
+    <div class="hero-grid">
+      <div>
+        <p class="hero-eyebrow">// electronics &amp; communication engineering</p>
+        <h1>Nishmitha<br>From <span class="accent">Circuits</span> to Code.</h1>
+        <p class="type-line"><span id="typing"></span><span class="cursor">_</span></p>
+        <p class="lede">I engineer end-to-end solutions by combining embedded systems, IoT, web development, and machine learning. My goal is to bridge hardware and software, creating innovative, efficient, and user-focused technologies that solve real-world problems.</p>
+        <div class="status-chip"><span class="dot"></span> Currently learning Machine Learning</div>
+        <div class="hero-actions">
+          <a href="#projects" class="btn primary"><i class="fa-solid fa-arrow-right"></i>&nbsp;View Projects</a>
+          <a href="assets/nishmitha  .pdf" class="btn ghost" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-down"></i>&nbsp;Resume</a>
+        </div>
+        <div class="hero-social">
+          <a href="https://github.com/Nishmitha07" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://linkedin.com/in/nishmitha07" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="mailto:nishmitha075@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+      </div>
+      <div>
+        <div class="chip-frame">
+          <span class="pin t1"></span><span class="pin t2"></span>
+          <span class="pin b1"></span><span class="pin b2"></span>
+          <span class="pin l1"></span><span class="pin l2"></span>
+          <span class="pin r1"></span><span class="pin r2"></span>
+          <div class="profileFrame">
+
+            <img src="images/profile.jpg"alt="Portrait of Nishmitha"class="profileImage">
+          </div>
+        </div>
+        <p class="chip-label">NISHMITHA · ECE.2027</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT / SNAPSHOT ============ -->
+  <section id="about">
+    <p class="eyebrow">ABOUT</p>
+    <div class="about-grid">
+      <div class="about">
+        <p><b>I'm a final-year ECE student</b> at Shri Madhwa Vadiraja Institute of Technology and Management, passionate about designing innovative solutions that bridge hardware and software.</p>
+        <p>My experience includes building <b> embedded systems, IoT applications, and digital designs using Verilog HDL</b>, while continuously expanding my expertise in <b>web development and machine learning</b>. I enjoy solving real-world engineering challenges by <b>combining electronics, programming, and modern technologies</b> to create practical, intelligent solutions.</p>
+      </div>
+      <div class="stat-row">
+        <div class="stat-card"><div class="num">8+</div><div class="lbl">Projects built</div></div>
+        <div class="stat-card"><div class="num">4</div><div class="lbl">Finalist / award wins</div></div>
+        <div class="stat-card"><div class="num">2023</div><div class="lbl">Started B.E. ECE</div></div>
+        <div class="stat-card"><div class="num">ML</div><div class="lbl">Currently learning</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section id="skills">
+    <p class="eyebrow">WHAT I WORK WITH</p>
+    <h2 class="title">Electronics first. Code close behind.</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <span class="tag">ELECTRONICS &amp; EMBEDDED</span>
+        <h3>Hardware &amp; Digital Design</h3>
+        <ul>
+          <li>Verilog HDL &amp; RTL Design</li>
+          <li>Digital Logic Design</li>
+          <li>Arduino &amp; ESP32</li>
+          <li>IoT Systems &amp; Sensors</li>
+          <li>FPGA Fundamentals</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <span class="tag">SOFTWARE</span>
+        <h3>Programming &amp; Web</h3>
+        <ul>
+          <li>C, C++, Python, Java</li>
+          <li>HTML, CSS, JavaScript</li>
+          <li>Responsive Web Design</li>
+          <li>Git &amp; GitHub</li>
+        </ul>
+      </div>
+      <div class="skill-card learning">
+        <span class="tag">CURRENTLY LEARNING</span>
+        <h3>AI / Machine Learning</h3>
+        <ul>
+          <li>Python for Data Analysis</li>
+          <li>Machine Learning fundamentals</li>
+          <li>scikit-learn (in progress)</li>
+          <li>Modern web frameworks</li>
+          <li>UI / product design</li>
+        </ul>
+      </div>
+    </div>
+    <div class="tools-row">
+      <span>Tools Used</span>
+      <span>MATLAB</span><span>Multisim</span><span>VS Code</span><span>Arduino IDE</span>
+      <span>Blynk IoT</span><span>Xilinx</span><span>Synopsys</span>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section id="projects">
+    <p class="eyebrow">SELECTED WORK</p>
+    <h2 class="title">A few things I've built.</h2>
+    <div class="project-grid">
+
+      <div class="project-card">
+        <div class="pc-top">
+          <div class="pc-icon">🐶</div>
+          <h3>Automatic Pet Feeder</h3>
+          <p>Bluetooth-controlled feeder — Arduino firmware talks to a companion Blynk app I built for remote feeding, scheduling, and portion control.</p>
+        </div>
+        <div class="pc-tags"><span>Arduino</span><span>HC-05 Bluetooth</span><span>Blynk IoT</span></div>
+        <a class="pc-link" href="https://github.com/Nishmitha07/automatic-pet-feeder" target="_blank" rel="noopener">View on GitHub <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+
+      <div class="project-card">
+        <div class="pc-top">
+          <div class="pc-icon">🌱</div>
+          <h3>Smart Automatic Compost Bin</h3>
+          <p>IoT composting system on Arduino + ESP32 — temperature, moisture and level sensors feed live status and notifications through the Blynk app.</p>
+        </div>
+        <div class="pc-tags"><span>ESP32</span><span>IoT / Sensors</span><span>Blynk</span></div>
+        <a class="pc-link" href="https://github.com/Nishmitha07/smart-compost-bin" target="_blank" rel="noopener">View on GitHub <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+
+      <div class="project-card">
+        <div class="pc-top">
+          <div class="pc-icon">⚡</div>
+          <h3>RISC-V (RV32I) Clock Gating</h3>
+          <p>Studying an open-source RV32I core and implementing instruction-aware clock gating at the decode stage — currently extending it to a 5-stage pipeline.</p>
+          <span class="status">in progress</span>
+        </div>
+        <div class="pc-tags"><span>Verilog HDL</span><span>RISC-V</span><span>Xilinx</span></div>
+        <a class="pc-link" href="https://github.com/Nishmitha07/rv32i-clock-gating" target="_blank" rel="noopener">View on GitHub <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+
+    </div>
+
+    <div class="more-row">
+      <span>More builds on GitHub:</span>
+      <a href="https://github.com/Nishmitha07/recipe-finder" target="_blank" rel="noopener">Recipe Finder</a>
+      <a href="https://github.com/Nishmitha07/weather-app" target="_blank" rel="noopener">Weather App</a>
+      <a href="https://github.com/Nishmitha07/Budget-Tracker" target="_blank" rel="noopener">Budget Tracker</a>
+      <a href="https://github.com/Nishmitha07/nb-arts-landing-page" target="_blank" rel="noopener">NB Arts Landing Page</a>
+      <a href="https://github.com/Nishmitha07/educare-digital-learning-platform" target="_blank" rel="noopener">Educare (Figma)</a>
+    </div>
+  </section>
+
+  <!-- ============ ACHIEVEMENTS ============ -->
+  <section id="achievements">
+    <p class="eyebrow">RECOGNITION</p>
+    <h2 class="title">Competitions, papers &amp; wins.</h2>
+    <div class="ach-list">
+      <div class="ach-item"><div class="ico">🥇</div><div><h4>COMEDKARES — First Prize</h4><p>Educare Digital Learning Platform, design-thinking track</p></div></div>
+      <div class="ach-item"><div class="ico">🏆</div><div><h4>Anveshana 2024–25 — Finalist</h4><p>Automatic Pet Feeder, Bengaluru Region</p></div></div>
+      <div class="ach-item"><div class="ico">🏆</div><div><h4>IEEE EU-REKA 2024 — Finalist</h4><p>E-Waste Management System, Pune</p></div></div>
+      <div class="ach-item"><div class="ico">🏆</div><div><h4>Anveshana 2024 — Finalist</h4><p>Automatic Medicine Reminder, Hubli–Dharwad</p></div></div>
+      <div class="ach-item"><div class="ico">📄</div><div><h4>TechCon Paper Presentation</h4><p>"Smart Crop: AI-Powered IoT System," SMVITM</p></div></div>
+      <div class="ach-item"><div class="ico">💻</div><div><h4>Hackotsava 2025</h4><p>National-level Hackathon, SMVITM</p></div></div>
+      <div class="ach-item"><div class="ico">🤖</div><div><h4>AAKAR 2026</h4><p>Line Follower Event, AJIET Mangalore</p></div></div>
+      <div class="ach-item"><div class="ico">🎨</div><div><h4>Next-Gen Engineering</h4><p>UI/UX Track, Yenepoya Institute of Technology</p></div></div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact">
+    <p class="eyebrow">GET IN TOUCH</p>
+    <p class="contactText">
+      As a final-year Electronics and Communication Engineering student, I enjoy building solutions across Embedded Systems, Digital Design, IoT, and Software Development. I'm eager to contribute to challenging projects, learn from experienced teams, and create technology that delivers real-world impact. If you're looking for a motivated engineer ready to grow and make meaningful contributions, I'd love to connect.
+    </p>
+    <div class="contact-grid">
+      <a class="contact-card" href="mailto:nishmitha075@gmail.com">
+        <div class="ico"><i class="fa-solid fa-envelope"></i></div>
+        <div><div class="lbl">EMAIL</div><div class="val">nishmitha075@gmail.com</div></div>
+      </a>
+      <a class="contact-card" href="https://linkedin.com/in/nishmitha07" target="_blank" rel="noopener">
+        <div class="ico"><i class="fab fa-linkedin"></i></div>
+        <div><div class="lbl">LINKEDIN</div><div class="val">linkedin.com/in/nishmitha07</div></div>
+      </a>
+      <a class="contact-card" href="https://github.com/Nishmitha07" target="_blank" rel="noopener">
+        <div class="ico"><i class="fab fa-github"></i></div>
+        <div><div class="lbl">GITHUB</div><div class="val">github.com/Nishmitha07</div></div>
+      </a>
+      <div class="contact-card">
+        <div class="ico"><i class="fa-solid fa-location-dot"></i></div>
+        <div><div class="lbl">LOCATION</div><div class="val">Udupi, Karnataka, India</div></div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="fbrand">nishmitha<span style="color:var(--mint)">.dev</span></div>
+  <p class="ftag">From Circuits to Code.</p>
+  <div class="ficons">
+    <a href="https://github.com/Nishmitha07" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+    <a href="https://linkedin.com/in/nishmitha07" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+    <a href="mailto:nishmitha075@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+  </div>
+  <p class="fcopy">© 2026 Nishmitha — designed &amp; built by hand.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
