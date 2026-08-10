@@ -1,6 +1,4 @@
-/* =========================================================
-   BOOT LOADER — terminal log, copper terms -> mint (code) terms
-========================================================= */
+
 const bootLines = [
   { text: "INIT ece_core.sys", phase: 0 },
   { text: "LOADING verilog_hdl…", phase: 0 },
@@ -53,7 +51,7 @@ if(reduceMotion){
     setTimeout(step, 150);
   };
   setTimeout(step, 150);
-  // hard safety cap so the loader never blocks the site
+
   setTimeout(finishLoad, 3200);
 }
 
